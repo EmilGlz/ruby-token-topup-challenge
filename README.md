@@ -21,11 +21,11 @@ https://thrive-assignment-fe-ckgtb0gyhch9c2fc.canadacentral-01.azurewebsites.net
 
 ```bash
 cd console-script
-ruby challenge.rbde
+ruby challenge.rb
 ```
 
 ### Description
-The Ruby Console Application processes data from user.json and companies.json, generating an output file named output.txt. The application performs the following tasks:
+The Ruby Console Application processes data from users.json and companies.json, generating an output file named output.txt. The application performs the following tasks:
 - Loads user and company data from the provided JSON files.
 - Identifies active users belonging to companies and calculates their token top-ups based on the company's specified top-up amount.
 - Checks the email status of both the user and the company to determine if an email notification should be indicated in the output.

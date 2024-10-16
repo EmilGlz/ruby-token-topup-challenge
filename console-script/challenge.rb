@@ -56,4 +56,4 @@ def process_and_generate_output(users_file, companies_file, output_file)
   end
 end
 
-process_and_generate_output('users.json', 'companies.json', 'output_mine.txt')
+process_and_generate_output('users.json', 'companies.json', 'output.txt')

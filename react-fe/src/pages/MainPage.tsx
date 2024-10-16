@@ -61,7 +61,7 @@ const MainPage: React.FC = () => {
                   <ul className="list-disc list-inside ml-5">
                     {company.users_emailed.map((user, index) => (
                       <li key={index} className="py-1">
-                        <span className="font-semibold">{user.first_name} {user.last_name}</span> 
+                        <span className="font-semibold">{user.last_name} {user.first_name}</span> 
                         <span className="text-gray-600"> ({user.email})</span>
                         <span className="block text-sm text-gray-500">Previous Balance: {user.previous_token_balance}, New Balance: {user.new_token_balance}</span>
                       </li>
@@ -75,7 +75,7 @@ const MainPage: React.FC = () => {
                   <ul className="list-disc list-inside ml-5">
                     {company.users_not_emailed.map((user, index) => (
                       <li key={index} className="py-1">
-                        <span className="font-semibold">{user.first_name} {user.last_name}</span> 
+                        <span className="font-semibold">{user.last_name} {user.first_name}</span> 
                         <span className="text-gray-600"> ({user.email})</span>
                         <span className="block text-sm text-gray-500">Previous Balance: {user.previous_token_balance}, New Balance: {user.new_token_balance}</span>
                       </li>
